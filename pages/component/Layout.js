@@ -25,8 +25,10 @@ const Layout = ({ title, children }) => {
             </div>
           </nav>
         </header>
-        <main>{children}</main>
-        <footer>Footer</footer>
+        <main className="container m-auto mt-4 px-2">{children}</main>
+        <footer className="flex justify-center items-center h-10 shadow-inner">
+          Footer
+        </footer>
       </div>
     </>
   );
