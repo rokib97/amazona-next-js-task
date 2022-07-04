@@ -9,7 +9,8 @@ const data = [
     rating: 4.5,
     numReviews: 8,
     countInStock: 20,
-    description: "A popular shirt",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis neque tempora odio accusantium quos officia sapiente reiciendis minus! Architecto, excepturi.",
   },
 ];
 

@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 const ProductItem = ({ product }) => {
-  console.log(product);
   return (
     <div className="card w-96 mx-auot">
       <Link href={`/product/${product.slug}`}>
